@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:wether_project/API/weather_api.dart';
-import 'package:wether_project/models/wether_forecast_daly.dart';
-import 'package:wether_project/screens/city_screen.dart';
-import 'package:wether_project/widgets/bottom_list_view.dart';
-import 'package:wether_project/widgets/cityview.dart';
-import 'package:wether_project/widgets/detail_view.dart';
-import 'package:wether_project/widgets/temp_view.dart';
+import 'package:weather_project/API/weather_api.dart';
+import 'package:weather_project/models/weather_forecast_daly.dart';
+import 'package:weather_project/screens/city_screen.dart';
+import 'package:weather_project/widgets/bottom_list_view.dart';
+import 'package:weather_project/widgets/cityview.dart';
+import 'package:weather_project/widgets/detail_view.dart';
+import 'package:weather_project/widgets/temp_view.dart';
 
 class WeatherForecastScreen extends StatefulWidget {
   final locationWeather;

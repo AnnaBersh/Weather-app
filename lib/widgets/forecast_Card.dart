@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:wether_project/utilities/forecast_util.dart';
+import 'package:weather_project/utilities/forecast_util.dart';
 
 Widget forecastCard(AsyncSnapshot snapshot, int index) {
   var forecastList = snapshot.data.list;

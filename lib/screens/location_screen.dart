@@ -1,7 +1,7 @@
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter/material.dart';
-import 'package:wether_project/API/weather_api.dart';
-import 'package:wether_project/screens/weather_forecast_screen.dart';
+import 'package:weather_project/API/weather_api.dart';
+import 'package:weather_project/screens/weather_forecast_screen.dart';
 
 class LocationScreen extends StatefulWidget {
   @override

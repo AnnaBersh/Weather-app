@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wether_project">
+    package="com.example.weather_project">
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -10,7 +10,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="wether_project"
+        android:label="weather_project"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

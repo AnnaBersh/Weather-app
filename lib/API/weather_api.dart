@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:http/http.dart' as http;
-import 'package:wether_project/models/wether_forecast_daly.dart';
-import 'package:wether_project/utilities/constants.dart';
-import 'package:wether_project/utilities/location.dart';
+import 'package:weather_project/models/weather_forecast_daly.dart';
+import 'package:weather_project/utilities/constants.dart';
+import 'package:weather_project/utilities/location.dart';
 
 class WeatherApi {
   Future<WeatherForecast> fetchWeatherForecast(

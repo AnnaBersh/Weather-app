@@ -1,4 +1,4 @@
-import 'package:wether_project/utilities/constants.dart';
+import 'package:weather_project/utilities/constants.dart';
 
 class WeatherForecast {
   String cod;
